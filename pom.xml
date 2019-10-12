@@ -3,10 +3,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>ehutong-rocketmq-stream</artifactId>
+	<artifactId>eht-rocketmq-stream</artifactId>
 	<packaging>pom</packaging>
 
-	<name>ehutong-rocketmq-parent</name>
+	<name>eht-rocketmq-parent</name>
 	<description>Demo project for Spring Boot</description>
 		<version>0.0.1-SNAPSHOT</version>
 
@@ -39,15 +39,15 @@
 
 	<modules>
 		<!-- rocketmq事务消息demo -->
-		<module>ehutong-rocketmq-stream-transactional</module>
+		<module>eht-rocketmq-stream-transactional</module>
 		<!-- rocketmq生产者demo -->
-		<module>ehutong-rocketmq-stream-produce</module>
+		<module>eht-rocketmq-stream-produce</module>
 		<!-- rocketmq消费者demo -->
-    <module>ehutong-rocketmq-stream-consume</module>
+    <module>eht-rocketmq-stream-consume</module>
     <!-- rocketmq生产者demo -->
-    <module>ehutong-rocketmq-demo-produce</module>
+    <module>eht-rocketmq-demo-produce</module>
     <!-- rocketmq消费者demo -->
-    <module>ehutong-rocketmq-demo-consume</module>
+    <module>eht-rocketmq-demo-consume</module>
 	</modules>
 
 	<dependencyManagement>

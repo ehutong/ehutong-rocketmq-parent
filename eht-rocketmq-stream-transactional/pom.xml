@@ -3,17 +3,22 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.ehutong</groupId>
-        <artifactId>ehutong-rocketmq-stream</artifactId>
+        <artifactId>eht-rocketmq-stream</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>ehutong-rocketmq-demo-consume</artifactId>
-    <description>rocketMQ-demo</description>
+    <artifactId>eht-rocketmq-stream-transactional</artifactId>
+    <description>rocketMQ事务消息demo</description>
 
     <dependencies>
+      <dependency>
+        <groupId>cn.hutool</groupId>
+        <artifactId>hutool-all</artifactId>
+      </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <!-- rocketMQ -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
