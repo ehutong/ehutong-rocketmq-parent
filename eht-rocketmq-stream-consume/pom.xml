@@ -1,13 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>eht-rocketmq-stream-consume</artifactId>
+    <packaging>jar</packaging>
+  
+    <name>eht-rocketmq-consume</name>
+    <description>Demo project for Spring Boot</description>
+
     <parent>
-        <groupId>com.ehutong</groupId>
-        <artifactId>eht-rocketmq-stream</artifactId>
+        <groupId>com.eht.rocketmq</groupId>
+        <artifactId>eht-rocketmq-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>eht-rocketmq-stream-consume</artifactId>
-    <description>rocketMQ消费者demo</description>
 
     <dependencies>
         <dependency>
